@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35478" started-at="2019-01-09T08:08:36Z" finished-at="2019-01-09T08:09:11Z">
+  <suite name="Default suite" duration-ms="58634" started-at="2019-01-10T09:48:49Z" finished-at="2019-01-10T09:49:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35478" started-at="2019-01-09T08:08:36Z" finished-at="2019-01-09T08:09:11Z">
+    <test name="Default test" duration-ms="58634" started-at="2019-01-10T09:48:49Z" finished-at="2019-01-10T09:49:48Z">
       <class name="com.sample.NewTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="Setup" is-config="true" duration-ms="6367" started-at="2019-01-09T08:08:36Z" finished-at="2019-01-09T08:08:42Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="Setup" is-config="true" duration-ms="30359" started-at="2019-01-10T09:48:49Z" finished-at="2019-01-10T09:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC001_LogInScreen()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="TC001_LogInScreen" duration-ms="542" started-at="2019-01-09T08:08:42Z" finished-at="2019-01-09T08:08:42Z">
+        <test-method status="PASS" signature="TC001_LogInScreen()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="TC001_LogInScreen" duration-ms="473" started-at="2019-01-10T09:49:20Z" finished-at="2019-01-10T09:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_LogInScreen -->
-        <test-method status="PASS" signature="TC002_SignUp()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="TC002_SignUp" duration-ms="13738" started-at="2019-01-09T08:08:42Z" finished-at="2019-01-09T08:08:56Z">
+        <test-method status="PASS" signature="TC002_SignUp()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="TC002_SignUp" duration-ms="8565" started-at="2019-01-10T09:49:20Z" finished-at="2019-01-10T09:49:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_SignUp -->
-        <test-method status="PASS" signature="TC003_SignIn()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="TC003_SignIn" duration-ms="10741" started-at="2019-01-09T08:08:56Z" finished-at="2019-01-09T08:09:07Z">
+        <test-method status="PASS" signature="TC003_SignIn()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="TC003_SignIn" duration-ms="13465" started-at="2019-01-10T09:49:29Z" finished-at="2019-01-10T09:49:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003_SignIn -->
-        <test-method status="PASS" signature="TC004_LearnMore()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="TC004_LearnMore" duration-ms="4067" started-at="2019-01-09T08:09:07Z" finished-at="2019-01-09T08:09:11Z">
+        <test-method status="PASS" signature="TC004_LearnMore()[pri:0, instance:com.sample.NewTest@2f686d1f]" name="TC004_LearnMore" duration-ms="5750" started-at="2019-01-10T09:49:42Z" finished-at="2019-01-10T09:49:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC004_LearnMore -->
