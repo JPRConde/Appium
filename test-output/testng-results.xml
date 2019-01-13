@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57039" started-at="2019-01-13T08:13:30Z" finished-at="2019-01-13T08:14:27Z">
+  <suite name="Default suite" duration-ms="58640" started-at="2019-01-13T12:16:05Z" finished-at="2019-01-13T12:17:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57039" started-at="2019-01-13T08:13:30Z" finished-at="2019-01-13T08:14:27Z">
+    <test name="Default test" duration-ms="58640" started-at="2019-01-13T12:16:05Z" finished-at="2019-01-13T12:17:04Z">
       <class name="com.sample.NewTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.sample.NewTest@3fee9989]" name="Setup" is-config="true" duration-ms="4907" started-at="2019-01-13T08:13:30Z" finished-at="2019-01-13T08:13:35Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.sample.NewTest@3fee9989]" name="Setup" is-config="true" duration-ms="5306" started-at="2019-01-13T12:16:05Z" finished-at="2019-01-13T12:16:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="ResetApp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="ResetApp" is-config="true" duration-ms="2976" started-at="2019-01-13T08:13:35Z" finished-at="2019-01-13T08:13:38Z">
+        <test-method status="PASS" signature="ResetApp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="ResetApp" is-config="true" duration-ms="5021" started-at="2019-01-13T12:16:11Z" finished-at="2019-01-13T12:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResetApp -->
-        <test-method status="PASS" signature="TC001_LogInScreen()[pri:0, instance:com.sample.NewTest@3fee9989]" name="TC001_LogInScreen" duration-ms="676" started-at="2019-01-13T08:13:38Z" finished-at="2019-01-13T08:13:39Z">
+        <test-method status="PASS" signature="TC001_LogInScreen()[pri:0, instance:com.sample.NewTest@3fee9989]" name="TC001_LogInScreen" duration-ms="638" started-at="2019-01-13T12:16:16Z" finished-at="2019-01-13T12:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_LogInScreen -->
-        <test-method status="PASS" signature="ResetApp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="ResetApp" is-config="true" duration-ms="2840" started-at="2019-01-13T08:13:39Z" finished-at="2019-01-13T08:13:42Z">
+        <test-method status="PASS" signature="ResetApp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="ResetApp" is-config="true" duration-ms="2887" started-at="2019-01-13T12:16:16Z" finished-at="2019-01-13T12:16:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResetApp -->
-        <test-method status="PASS" signature="TC002_SignUp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="TC002_SignUp" duration-ms="15258" started-at="2019-01-13T08:13:42Z" finished-at="2019-01-13T08:13:57Z">
+        <test-method status="PASS" signature="TC002_SignUp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="TC002_SignUp" duration-ms="13827" started-at="2019-01-13T12:16:19Z" finished-at="2019-01-13T12:16:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_SignUp -->
-        <test-method status="PASS" signature="ResetApp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="ResetApp" is-config="true" duration-ms="3569" started-at="2019-01-13T08:13:57Z" finished-at="2019-01-13T08:14:00Z">
+        <test-method status="PASS" signature="ResetApp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="ResetApp" is-config="true" duration-ms="2905" started-at="2019-01-13T12:16:33Z" finished-at="2019-01-13T12:16:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResetApp -->
-        <test-method status="PASS" signature="TC003_LearnMore()[pri:0, instance:com.sample.NewTest@3fee9989]" name="TC003_LearnMore" duration-ms="1701" started-at="2019-01-13T08:14:00Z" finished-at="2019-01-13T08:14:02Z">
+        <test-method status="PASS" signature="TC003_LearnMore()[pri:0, instance:com.sample.NewTest@3fee9989]" name="TC003_LearnMore" duration-ms="4341" started-at="2019-01-13T12:16:36Z" finished-at="2019-01-13T12:16:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003_LearnMore -->
-        <test-method status="PASS" signature="ResetApp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="ResetApp" is-config="true" duration-ms="2842" started-at="2019-01-13T08:14:02Z" finished-at="2019-01-13T08:14:05Z">
+        <test-method status="PASS" signature="ResetApp()[pri:0, instance:com.sample.NewTest@3fee9989]" name="ResetApp" is-config="true" duration-ms="5412" started-at="2019-01-13T12:16:40Z" finished-at="2019-01-13T12:16:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResetApp -->
-        <test-method status="PASS" signature="TC004_SignIn()[pri:0, instance:com.sample.NewTest@3fee9989]" name="TC004_SignIn" duration-ms="22243" started-at="2019-01-13T08:14:05Z" finished-at="2019-01-13T08:14:27Z">
+        <test-method status="PASS" signature="TC004_SignIn()[pri:0, instance:com.sample.NewTest@3fee9989]" name="TC004_SignIn" duration-ms="18278" started-at="2019-01-13T12:16:46Z" finished-at="2019-01-13T12:17:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC004_SignIn -->
