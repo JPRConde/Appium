@@ -23,19 +23,25 @@ import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.touch.offset.PointOption;
 
+
 public class NewTest {
+	
+	//Enter New phone number
+	String phoneNumber = "09399038386";
+	//Enter Registered phone number
+	String phoneNumberReg = "09190001111";
+	//APK build to test
+	File testAPK = new File("src","app-ph-qa-release.apk");
 	
 	//Create instance for appium driver
 	AppiumDriver<AndroidElement> driver;
 	
 	@BeforeClass
 	public void Setup() throws MalformedURLException {
-		File f=new File("src");
-		File fs=new File(f,"app-ph-qa-release.apk");
-		
+
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
-		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
+		cap.setCapability(MobileCapabilityType.APP, testAPK.getAbsolutePath());
 		cap.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "co.tala.MainActivity");
 		cap.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "ph.com.talaqa");
 		
@@ -63,12 +69,13 @@ public class NewTest {
 	@Test
 	public void TC002_SignUp() {
 		driver.findElement(By.id("get_started_button")).click();
-		driver.findElement(By.id("phone_number_input")).sendKeys("09399038386");
+		driver.findElement(By.id("phone_number_input")).sendKeys(phoneNumber);
 		driver.findElement(By.id("submit_button")).isEnabled();
 		driver.findElement(By.id("submit_button")).click();
 		
 		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("otp_layout"))); 
+		
 		//Need to get steps on how to get OTP
    }
 	
@@ -83,21 +90,25 @@ public class NewTest {
 	@Test
 	public void TC004_SignIn() {
 		driver.findElement(By.id("sign_in_button")).click();
-		//Should be changed with a registered number
-		driver.findElement(By.id("number_edit_text")).sendKeys("9190001111");
+		driver.findElement(By.id("number_edit_text")).sendKeys(phoneNumberReg);
 		driver.findElement(By.id("next_button")).isEnabled();
 		driver.findElement(By.id("next_button")).click();
 		
 		//Entering PIN
 		TouchAction t = new TouchAction(driver);
+		
+			//Coordinates of Key 1
+			int pointX = 144;
+			int pointY = 1204;
+		
 		driver.findElement(By.id("first_digit_edit_text")).isSelected();
-		t.tap(new PointOption().withCoordinates(144, 1204)).perform();
+		t.tap(new PointOption().withCoordinates(pointX, pointY)).perform();
 		driver.findElement(By.id("second_digit_edit_text")).isSelected();
-		t.tap(new PointOption().withCoordinates(144, 1204)).perform();
+		t.tap(new PointOption().withCoordinates(pointX, pointY)).perform();
 		driver.findElement(By.id("third_digit_edit_text")).isSelected();
-		t.tap(new PointOption().withCoordinates(144, 1204)).perform();
+		t.tap(new PointOption().withCoordinates(pointX, pointY)).perform();
 		driver.findElement(By.id("fourth_digit_edit_text")).isSelected();
-		t.tap(new PointOption().withCoordinates(144, 1204)).perform();
+		t.tap(new PointOption().withCoordinates(pointX, pointY)).perform();
 	
 		driver.findElement(By.id("next_button")).isEnabled();
 		driver.findElement(By.id("next_button")).click();
