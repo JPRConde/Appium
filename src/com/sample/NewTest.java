@@ -29,9 +29,9 @@ public class NewTest {
 	//Enter New phone number
 	String phoneNumber = "09399038386";
 	//Enter Registered phone number
-	String phoneNumberReg = "09190001111";
+	String phoneNumberReg = "09277482270";
 	//APK build to test
-	File testAPK = new File("src","app-ph-qa-release.apk");
+	File testAPK = new File("src","app-ph-stg-release.apk");
 	
 	//Create instance for appium driver
 	AppiumDriver<AndroidElement> driver;
@@ -43,7 +43,7 @@ public class NewTest {
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
 		cap.setCapability(MobileCapabilityType.APP, testAPK.getAbsolutePath());
 		cap.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "co.tala.MainActivity");
-		cap.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "ph.com.talaqa");
+		cap.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "ph.com.talastg");
 		
 		driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -90,6 +90,7 @@ public class NewTest {
 	@Test
 	public void TC004_SignIn() {
 		driver.findElement(By.id("sign_in_button")).click();
+		driver.findElement(By.id("number_edit_text")).click();
 		driver.findElement(By.id("number_edit_text")).sendKeys(phoneNumberReg);
 		driver.findElement(By.id("next_button")).isEnabled();
 		driver.findElement(By.id("next_button")).click();
@@ -101,6 +102,7 @@ public class NewTest {
 			int pointX = 144;
 			int pointY = 1204;
 		
+		driver.findElement(By.id("first_digit_edit_text")).click();
 		driver.findElement(By.id("first_digit_edit_text")).isSelected();
 		t.tap(new PointOption().withCoordinates(pointX, pointY)).perform();
 		driver.findElement(By.id("second_digit_edit_text")).isSelected();
