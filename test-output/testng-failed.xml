@@ -5,10 +5,8 @@
     <classes>
       <class name="com.sample.NewTest">
         <methods>
-          <include name="TC004_LearnMore"/>
-          <include name="TC003_SignIn"/>
-          <include name="TC001_LogInScreen"/>
-          <include name="TC002_SignUp"/>
+          <include name="TC004_SignIn"/>
+          <include name="ResetApp"/>
           <include name="Setup"/>
         </methods>
       </class> <!-- com.sample.NewTest -->
