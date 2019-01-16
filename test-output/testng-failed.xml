@@ -5,7 +5,7 @@
     <classes>
       <class name="com.sample.NewTest">
         <methods>
-          <include name="TC004_SignIn"/>
+          <include name="LearnMorePageTest"/>
           <include name="ResetApp"/>
           <include name="Setup"/>
         </methods>

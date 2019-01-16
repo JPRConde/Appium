@@ -8,5 +8,7 @@
 	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/selenium-java-3.141.59.jar" sourcepath="/Users/kayconde/Downloads/Libs/selenium-java-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/commons-lang3-3.8.1/commons-lang3-3.8.1.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/junit-4.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
