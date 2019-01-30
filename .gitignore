@@ -1,2 +1,10 @@
 /bin/
+<<<<<<< HEAD
 /target/
+=======
+.idea
+.settings
+.project
+.classpath
+test-output/
+>>>>>>> branch 'master' of https://github.com/JPRConde/Appium.git
