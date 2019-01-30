@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/java-client-7.0.0.jar"/>
 	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/gson-2.8.5.jar"/>
@@ -10,5 +19,12 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/junit-4.12.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/json-20180813.jar"/>
+	<classpathentry kind="lib" path="/Users/kayconde/Downloads/Libs/json-20180813-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
